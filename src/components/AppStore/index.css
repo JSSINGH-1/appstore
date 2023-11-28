@@ -1,0 +1,59 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.bgContainer {
+  background-image: linear-gradient(to bottom, #fff1eb, #ace0f9);
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.inputContainer {
+  border: 1px solid black;
+  display: flex;
+  margin-bottom: 10px;
+  margin-top: 10px;
+  width: 250px;
+  justify-content: space-between;
+}
+
+.buttonIteam {
+  padding: 5px;
+  border: none;
+}
+
+.TablelistContainer {
+  display: flex;
+  width: 270px;
+  justify-content: space-around;
+  border: none;
+  border-bottom: 1px solid black;
+}
+
+.searchImage {
+  width: 25px;
+}
+
+.heding {
+  font-family: Bree Serif;
+}
+
+.Searchinput {
+  border: none;
+  background-color: transparent;
+}
+
+.app-container {
+  margin-top: 15px;
+  /* background-color: beige; */
+  overflow: hidden;
+  width: 50%;
+  justify-content: center;
+
+  display: flex;
+  flex-wrap: wrap;
+}
